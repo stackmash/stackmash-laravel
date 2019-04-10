@@ -1,0 +1,42 @@
+{
+    "name": "stackmash/stackmash-laravel",
+    "description": "Stackmash for Laravel",
+    "keywords": [
+        "stackmash",
+        "stackmash laravel",
+        "notification",
+        "notifications"
+    ],
+    "homepage": "https://github.com/stackmash/stackmash-laravel",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stackmash",
+            "email": "support@stackmash.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x",
+        "stackmash/stackmash-php": "^0.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "graham-campbell/testbench": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stackmash\\StackmashLaravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stackmash\\StackmashLaravel\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
