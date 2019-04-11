@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Stackmash\\StackmashLaravel\\StackmashLaravelServiceProvider"
+                "Stackmash\\StackmashLaravel\\StackmashServiceProvider"
             ],
             "aliases": {
-                "Stackmash": "Stackmash\\StackmashLaravel\\StackmashLaravelFacade"
+                "Stackmash": "Stackmash\\StackmashLaravel\\StackmashFacade"
             }
         }
     }
